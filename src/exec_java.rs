@@ -16,7 +16,7 @@ impl ExecJava {
     let output = if cfg!(target_os = "windows") {
       java_path.push("java.exe");
       Command::new(java_path)
-        .args(&["-version"])
+        .args(&["-jar", "forge-1.15.2-31.2.46-installer.jar"])
         .output()
         .expect("failed to execute process")
     } else {
