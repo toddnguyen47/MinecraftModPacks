@@ -31,4 +31,12 @@ impl<'a> LoadYaml<'a> {
     println!("Windows: '{}'", self.windows_path);
     println!("Mac: '{}'", self.mac_path);
   }
+
+  pub fn get_windows_path(&self) -> String {
+    return String::from(&self.windows_path);
+  }
+
+  pub fn get_mac_path(&self) -> String {
+    return String::from(&self.mac_path);
+  }
 }
