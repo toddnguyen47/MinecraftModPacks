@@ -1,0 +1,5 @@
+# Windows install path
+windows_install_path: "Z:/Program Files (x86)/Minecraft Launcher/MinecraftLauncher.exe"
+
+# Mac Install path
+mac_install_path: "/Applications/"
